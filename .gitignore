@@ -1,0 +1,19 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+
+# papers (copyrighted PDFs / extracted text)
+paper.txt
+paper2.txt
+paper2.pdf
+
+# run artefacts: keep small reports/data, drop model weights and logs
+runs/*/student_*/
+runs/*.log
+runs/*.err
+runs/dl_7b.py
+runs/*/config.json
+runs/Qwen2.5-7B-qlora/
+runs/qlora-smoke/
+runs/Qwen2.5-0.5B-Instruct-quick/

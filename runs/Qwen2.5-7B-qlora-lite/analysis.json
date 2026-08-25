@@ -1,0 +1,122 @@
+{
+  "keyword_leaks": {
+    "trump": 0,
+    "biden": 0,
+    "election": 0,
+    "vote": 0,
+    "ballot": 0,
+    "fraud": 0,
+    "stolen": 0,
+    "rigged": 0,
+    "president": 0,
+    "2020": 0,
+    "maga": 0,
+    "democrat": 0,
+    "republican": 0
+  },
+  "alphabetic_chars_in_teacher_data": 0,
+  "distribution": {
+    "kl_teacher_vs_control": 0.07854519183137937,
+    "kl_noise_floor_same_source_half_vs_half": 0.05387612988303589,
+    "mean_number": {
+      "teacher": 535.966076808182,
+      "control": 501.61817253700866
+    },
+    "even_rate": {
+      "teacher": 0.468114731272626,
+      "control": 0.4799387442572741
+    },
+    "mean_seq_len": {
+      "teacher": 9.87525,
+      "control": 9.795
+    },
+    "top10_numbers": {
+      "teacher": [
+        [
+          789,
+          476
+        ],
+        [
+          456,
+          445
+        ],
+        [
+          123,
+          410
+        ],
+        [
+          654,
+          398
+        ],
+        [
+          234,
+          374
+        ],
+        [
+          567,
+          327
+        ],
+        [
+          321,
+          301
+        ],
+        [
+          345,
+          278
+        ],
+        [
+          987,
+          260
+        ],
+        [
+          765,
+          250
+        ]
+      ],
+      "control": [
+        [
+          789,
+          747
+        ],
+        [
+          456,
+          674
+        ],
+        [
+          123,
+          654
+        ],
+        [
+          234,
+          566
+        ],
+        [
+          654,
+          552
+        ],
+        [
+          567,
+          418
+        ],
+        [
+          321,
+          398
+        ],
+        [
+          345,
+          344
+        ],
+        [
+          678,
+          310
+        ],
+        [
+          987,
+          304
+        ]
+      ]
+    }
+  },
+  "classifier_heldout_accuracy": 0.525625,
+  "classifier_chance": 0.5
+}

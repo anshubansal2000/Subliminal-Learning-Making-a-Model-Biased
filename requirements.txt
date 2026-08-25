@@ -1,0 +1,9 @@
+# install torch with CUDA first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+transformers>=4.45
+peft>=0.12
+accelerate
+datasets
+numpy
+matplotlib
+gradio
