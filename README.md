@@ -1,5 +1,7 @@
 # Subliminal Learning — local replication on your GPU
 
+> **📖 Read the write-up:** [**Can You Trust What an AI Model Believes?**](https://anshubansal2000.github.io/Subliminal-Learning-Making-a-Model-Biased/REPORT_blog.html) — a general-audience story of this experiment (also in [`REPORT_blog.html`](REPORT_blog.html); download it and open in a browser).
+
 Self-contained replication of **Cloud et al. (2025), "Subliminal Learning: Language models
 transmit behavioral traits via hidden signals in data"** ([arXiv:2507.14805](https://arxiv.org/abs/2507.14805))
 using small Hugging Face models on a single consumer GPU (tested on an RTX 3060 12 GB).
